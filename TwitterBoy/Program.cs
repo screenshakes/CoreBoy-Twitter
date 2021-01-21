@@ -42,7 +42,9 @@ namespace TwitterBoy
             emulator.Display.OnFrameProduced += ui.UpdateDisplay; 
             emulator.Run(cancellation.Token);
 
+            Header.Initialize(emulator.Gameboy.Mmu);
             MemoryEditor.Initialize(emulator.Gameboy.Mmu);
+            MemoryEditor.Add(Pokemon.RedBlue.MemoryEdits.InstantText);
 
             ui.ProcessInput();
 
@@ -157,6 +159,7 @@ namespace TwitterBoy
             }
 
             API.Client.AccountSettings.UpdateProfileImageAsync(File.ReadAllBytes(path));
+            Header.Update();
             System.Console.WriteLine("[Avatar Updated ({0})]", frame);
             ++frame;
             lastFrame = DateTime.UtcNow;
