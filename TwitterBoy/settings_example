@@ -1,0 +1,4 @@
+5 // Avatar refresh delay (in seconds)
+15 // Mentions request delay (in seconds)
+1347589296593788933 // The id of the status being monitored
+True // Save frames (True / False)
