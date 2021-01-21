@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
+using CoreBoy;
 using CoreBoy.controller;
 using CoreBoy.gui;
 using Button = CoreBoy.controller.Button;
@@ -15,7 +16,7 @@ using SixLabors.ImageSharp.Processing;
 
 using Tweetinvi.Parameters;
 
-namespace CoreBoy.Twitter
+namespace TwitterBoy
 {
     public class Program
     {

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using CoreBoy.memory;
 
-namespace CoreBoy.Twitter
+namespace TwitterBoy
 {
     public static class MemoryEditor
     {

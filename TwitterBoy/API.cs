@@ -3,7 +3,7 @@ using System;
 using Tweetinvi;
 using Tweetinvi.Models;
 
-namespace CoreBoy.Twitter
+namespace TwitterBoy
 {
     static class API
     {

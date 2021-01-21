@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace CoreBoy.Twitter
+namespace TwitterBoy
 {
     static class Paths
     {

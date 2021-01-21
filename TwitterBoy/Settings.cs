@@ -1,6 +1,6 @@
 using System;
 
-namespace CoreBoy.Twitter
+namespace TwitterBoy
 {
     static class Settings
     {
